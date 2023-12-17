@@ -145,13 +145,10 @@ def byte_or_char(ordered_params: List[str]):
     last_param = None
 
     for param in ordered_params:
-        match param:
-            case "count":
-                last_param = "count"
-            case "chars":
-                last_param = "chars"
-            case _:
-                pass
+        if param == "count":
+            last_param = "count"
+        if param == "chars":
+            last_param = "chars"
 
     return last_param
 
