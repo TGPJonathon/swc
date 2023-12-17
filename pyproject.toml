@@ -1,0 +1,26 @@
+[project]
+name = "swc"
+version = "0.1"
+description = "Reimplementing the wc linux command for a challenge"
+readme = "README.md"
+authors = [{name = "Jonathon Moody"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click"
+]
+
+[project.urls]
+Homepage = "https://github.com/TGPJonathon/swc"
+Changelog = "https://github.com/TGPJonathon/swc/releases"
+Issues = "https://github.com/TGPJonathon/swc/issues"
+CI = "https://github.com/TGPJonathon/swc/actions"
+
+[project.entry-points.console_scripts]
+swc = "swc.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
