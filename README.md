@@ -1,7 +1,5 @@
 # swc
 
-[![PyPI](https://img.shields.io/pypi/v/swc.svg)](https://pypi.org/project/swc/)
-[![Changelog](https://img.shields.io/github/v/release/TGPJonathon/swc?include_prereleases&label=changelog)](https://github.com/TGPJonathon/swc/releases)
 [![Tests](https://github.com/TGPJonathon/swc/workflows/Test/badge.svg)](https://github.com/TGPJonathon/swc/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/TGPJonathon/swc/blob/master/LICENSE)
 
